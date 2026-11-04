@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Haus of Mira — luxury fashion design and tailoring.">
+  <title>Haus of Mira | Luxury in Every Stitch</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Haus of Mira home">
+    <span class="brand-mark">MK<span class="gold-dot">.</span></span>
+    <span class="brand-tagline">Where ideas meet creativity</span>
+  </a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="sideMenu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="menu-backdrop" id="menuBackdrop"></div>
+<aside class="side-menu" id="sideMenu" aria-hidden="true">
+  <div class="menu-top"><span>Explore Haus of Mira</span><button id="closeMenu" aria-label="Close navigation">×</button></div>
+  <nav class="side-nav" aria-label="Main navigation">
+    <a href="index.html">Home <span>01</span></a>
+    <a href="about.html">About <span>02</span></a>
+    <a href="services.html">Services <span>03</span></a>
+    <a href="prices.html">Packages & Prices <span>04</span></a>
+    <a href="contact.html">Contact / Book <span>05</span></a>
+  </nav>
+  <p class="menu-note">Luxury in every stitch.</p>
+</aside>
+
+<main>
+  <section class="hero section-wrap" id="home">
+    <div class="hero-copy">
+      <p class="eyebrow">PERSONAL STYLE. THOUGHTFUL CRAFT.</p>
+      <h1>Luxury in<br><em>every stitch.</em></h1>
+      <p class="hero-description">Premium fashion design and tailoring that brings culture, elegance and modern style together — made to feel like you.</p>
+      <div class="hero-actions">
+        <a class="button button-gold" href="services.html">Explore our services <span>↗</span></a>
+        <a class="button button-outline" href="contact.html">Book a consultation</a>
+      </div>
+      <div class="hero-note"><span class="note-line"></span> Made with intention. Designed around you.</div>
+    </div>
+    <div class="hero-visual">
+      <div class="image-frame">
+        <div class="slideshow" aria-label="Haus of Mira fashion image slideshow">
+          <img src="pic1.png" class="slide-image" alt="Fashion design inspiration">
+          <img src="pic2.jpg" class="slide-image" alt="Elegant fashion styling">
+          <img src="pic3.jpg" class="slide-image" alt="Modern fashion design">
+          <img src="pic4.jpg" class="slide-image" alt="Tailoring and style inspiration">
+        </div>
+        <span class="frame-label">HAUS OF MIRA · EST. IN STYLE</span>
+      </div>
+      <div class="round-stamp">MADE<br>FOR<br>YOU</div>
+    </div>
+  </section>
+
+  <section class="intro-band">
+    <p>We create styles that enhance confidence and help every client stand out effortlessly.</p>
+    <span>Personalised tailoring · Modern elegance · Quality finishing</span>
+  </section>
+
+  <section class="section-wrap section-block">
+    <div class="section-heading">
+      <p class="eyebrow">THE HAUS EXPERIENCE</p>
+      <h2>More than an outfit.<br><em>A feeling.</em></h2>
+      <p>From the first idea to the final fitting, we make your style journey personal, considered and comfortable.</p>
+    </div>
+    <div class="feature-grid">
+      <article class="feature-card"><span class="feature-number">01</span><div class="feature-icon">✦</div><h3>Custom Design</h3><p>Distinctive designs shaped around your taste, occasion and personality.</p><a href="services.html">Discover the service ↗</a></article>
+      <article class="feature-card"><span class="feature-number">02</span><div class="feature-icon">⌁</div><h3>Personal Fitting</h3><p>Measurements and fittings focused on comfort, proportion and confidence.</p><a href="services.html">Discover the service ↗</a></article>
+      <article class="feature-card"><span class="feature-number">03</span><div class="feature-icon">◇</div><h3>Finishing Touches</h3><p>Careful details and finishing to bring the whole look together.</p><a href="services.html">Discover the service ↗</a></article>
+    </div>
+  </section>
+
+  <section class="statement">
+    <p class="eyebrow">YOUR STYLE, YOUR STORY</p>
+    <h2>Wear what makes<br><em>you feel unforgettable.</em></h2>
+    <a class="button button-dark" href="contact.html">Let's create your look <span>↗</span></a>
+  </section>
+
+  <section class="section-wrap section-block">
+    <div class="section-heading compact">
+      <p class="eyebrow">READY WHEN YOU ARE</p><h2>Start with a conversation.</h2>
+      <p>Tell us about your event, inspiration or the piece you have in mind.</p>
+    </div>
+    <a class="button button-gold" href="contact.html">Explore / Book a consultation <span>↗</span></a>
+  </section>
+</main>
+<footer class="site-footer">
+  <a class="footer-brand" href="index.html">HAUS OF MIRA<span>.</span></a>
+  <p>Luxury in every stitch.</p>
+  <div class="footer-links"><a href="about.html">About</a><a href="services.html">Services</a><a href="prices.html">Prices</a><a href="contact.html">Contact</a></div>
+  <small>© <span id="year"></span> Haus of Mira. All rights reserved.</small>
+</footer>
+</body>
+</html>
